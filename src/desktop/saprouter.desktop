@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Categories=Settings;System;Qt;X-SuSE-YaST;X-SuSE-YaST-System;
+
+X-KDE-ModuleType=Library
+X-KDE-HasReadOnlyMode=true
+
+X-SuSE-YaST-Call=saprouter
+X-SuSE-YaST-Group=Misc
+
+Icon=yast-messages
+Exec=/sbin/yast2 journalctl
+
+Name=SAPRouter configuration
+GenericName=saprouter configuration
+StartupNotify=true

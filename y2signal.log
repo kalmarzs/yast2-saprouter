@@ -1,0 +1,38 @@
+=== 2017-04-24 15:35:52 +0200 ===
+YaST got signal 2 at file /home/bond/Dropbox/WORK/yast2-saprouter/src/lib/yast2-saprouter/entries_dialog.rb:84
+  sender PID: 0
+Liberating suppressed debugging messages:
+End of suppressed debugging messages
+Backtrace: (use c++filt to demangle)
+/usr/lib64/liby2.so.4(_Z20signal_log_backtracev+0x18)[0x7f776998f5b8]
+/usr/lib64/liby2.so.4(_Z14signal_handleriP9siginfo_tPv+0x164)[0x7f776998f7c4]
+/lib64/libpthread.so.0(+0x10b10)[0x7f776935bb10]
+/lib64/libpthread.so.0(read+0x2d)[0x7f776935ad2d]
+/usr/lib64/libyui.so.7(_ZN3YUI15waitForUIThreadEv+0x20)[0x7f77663d77b0]
+/usr/lib64/YaST2/plugin/libpy2UI.so.2(_ZN11YUIFunction12evaluateCallEv+0xa8)[0x7f776666efe8]
+/usr/lib64/ruby/vendor_ruby/2.1.0/x86_64-linux-gnu/yastx.so(+0xac82)[0x7f7766193c82]
+/usr/lib64/libruby2.1.so.2.1(+0x173554)[0x7f776715f554]
+/usr/lib64/libruby2.1.so.2.1(+0x1801ad)[0x7f776716c1ad]
+/usr/lib64/libruby2.1.so.2.1(+0x17768d)[0x7f776716368d]
+/usr/lib64/libruby2.1.so.2.1(+0x17b8a2)[0x7f77671678a2]
+/usr/lib64/libruby2.1.so.2.1(+0x182091)[0x7f776716e091]
+/usr/lib64/libruby2.1.so.2.1(rb_rescue2+0x10e)[0x7f776705efae]
+/usr/lib64/libruby2.1.so.2.1(+0x1725de)[0x7f776715e5de]
+/usr/lib64/libruby2.1.so.2.1(+0x173554)[0x7f776715f554]
+/usr/lib64/libruby2.1.so.2.1(+0x1801ad)[0x7f776716c1ad]
+/usr/lib64/libruby2.1.so.2.1(+0x17768d)[0x7f776716368d]
+/usr/lib64/libruby2.1.so.2.1(+0x17b8a2)[0x7f77671678a2]
+/usr/lib64/libruby2.1.so.2.1(+0x17bd7e)[0x7f7767167d7e]
+/usr/lib64/libruby2.1.so.2.1(+0x17c26f)[0x7f776716826f]
+/usr/lib64/libruby2.1.so.2.1(+0x173554)[0x7f776715f554]
+/usr/lib64/libruby2.1.so.2.1(+0x1801ad)[0x7f776716c1ad]
+/usr/lib64/libruby2.1.so.2.1(+0x17760c)[0x7f776716360c]
+/usr/lib64/libruby2.1.so.2.1(+0x17b8a2)[0x7f77671678a2]
+/usr/lib64/libruby2.1.so.2.1(+0x17c4dd)[0x7f77671684dd]
+/usr/lib64/libruby2.1.so.2.1(+0x17d89b)[0x7f776716989b]
+/usr/lib64/libruby2.1.so.2.1(rb_funcall+0xd1)[0x7f7767169f41]
+/usr/lib64/YaST2/plugin/libpy2lang_ruby.so(_ZN5YRuby10callClientERKSs+0xbc)[0x7f7767475d2c]
+/usr/lib64/YaST2/plugin/libpy2lang_ruby.so(_ZN21Y2RubyClientComponent12doActualWorkERK7YCPListP11Y2Component+0x184)[0x7f7767473b94]
+/usr/lib64/liby2.so.4(main+0xf59)[0x7f7769989f19]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f7767c5a6e5]
+/usr/lib/YaST2/bin/y2base[0x4006d9]
